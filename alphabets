@@ -1,0 +1,14 @@
+# Program to check if the entered character is an alphabet or not
+
+# Get input from the user
+char = input("Enter a character: ")
+
+# Check if input is a single character
+if len(char) != 1:
+    print("Please enter exactly one character.")
+else:
+    # Check if it is an alphabet using comparison operators
+    if ('a' <= char <= 'z') or ('A' <= char <= 'Z'):
+        print(f"'{char}' is an alphabet.")
+    else:
+        print(f"'{char}' is not an alphabet.")
