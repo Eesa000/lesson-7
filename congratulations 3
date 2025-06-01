@@ -1,0 +1,8 @@
+# Get input from user
+message = input(" (Congratulations): ")
+
+# Convert to uppercase
+uppercase_message = message.upper()
+
+# Display the result
+print("Uppercase message:", uppercase_message)

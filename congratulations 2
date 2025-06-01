@@ -1,0 +1,11 @@
+# Program: Convert congratulations message to uppercase
+
+# Input from the user
+message = input("Congratulations! ")
+
+# Convert to uppercase
+uppercase_message = message.upper()
+
+# Display the output
+print("Your congratulation message in uppercase is:")
+print(uppercase_message)
