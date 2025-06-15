@@ -9,3 +9,7 @@ uppercase_message = message.upper()
 # Display the output
 print("Your congratulation message in uppercase is:")
 print(uppercase_message)
+print (" thank you for using our program!")
+print("have a great day!")
+print("Goodbye!")
+55
