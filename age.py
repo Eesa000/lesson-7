@@ -1,10 +1,42 @@
-age = int(input("Enter your age: "))
+print (" Enter the base number: " , end="")
+base = int(input())
+print(f"{base} in decimal is {base} in binary is {bin(base)} in
+octal is {oct(base)} and in hexadecimal is {hex(base)}")
+print(f"The binary representation of {base} is {bin(base)}")
+print(f"The octal representation of {base} is {oct(base)}")#
+print(f"The hexadecimal representation of {base} is {hex(base)}")
+print(f"The decimal representation of {base} is {base}")
+print(f"The base number is {base}")
+print(f"The base number in binary is {bin(base)}")
+print(f"The base number in octal is {oct(base)}")
 
-# Using nested if-else statements to check the condition
-if age >= 10:
-    if age <= 20:
-        print("Your age is between 10 and 20 years.")
-    else:
-        print("Your age is more than 20 years.")
-else:
-    print("Your age is less than 10 years.")
+print(f"The base number in hexadecimal is {hex(base)}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in binary is {bin(base)}")
+print(f"The base number in octal is {oct(base)}")
+print(f"The base number in hexadecimal is {hex(base)}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in binary is {bin(base)}")
+print(f"The base number in octal is {oct(base)}")
+print(f"The base number in hexadecimal is {hex(base)}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in binary is {bin(base)}")
+print(f"The base number in octal is {oct(base)}")
+print(f"The base number in hexadecimal is {hex(base)}")
+
+print(f"The base number in decimal is {base}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in binary is {bin(base)}")
+print(f"The base number in octal is {oct(base)}")
+print(f"The base number in hexadecimal is {hex(base)}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in binary is {bin(base)}")
+print(f"The base number in octal is {oct(base)}")
+print(f"The base number in hexadecimal is {hex(base)}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in decimal is {base}")
+print(f"The base number in binary is {bin(base)}")

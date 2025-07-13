@@ -1,0 +1,22 @@
+# Program to count the number of digits in a number using a while loop
+
+# Input from the user
+number = int(input("Enter a number: "))
+
+# Initialize the count
+count = 0
+
+# Handle the case when the number is 0
+if number == 0:
+    count = 1
+else:
+    # Use absolute value in case a negative number is entered
+    number = abs(number)
+    
+    # Count digits using while loop
+    while number > 0:
+        number = number // 10
+        count += 1
+
+# Output the result
+print("Total number of digits:", count)
