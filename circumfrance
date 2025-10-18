@@ -1,0 +1,15 @@
+# Function to calculate the circumference of a circle
+
+def circumference(radius):
+    """
+    Calculate the circumference of a circle given its radius.
+    Formula: C = 2 * π * r
+    """
+    import math
+    return 2 * math.pi * radius
+
+
+# Example usage
+r = float(input("Enter the radius of the circle: "))
+c = circumference(r)
+print(f"The circumference is: {c:.2f}")
