@@ -1,10 +1,10 @@
-def calculate_due_amount(amount_paid, total_bill):
-    due = amount_paid - total_bill
-    return due
+# Read input values
+X, Y, C = map(int, input("Enter X Y C separated by space: ").split())
 
-# Example values based on your story
-total_bill = 2.50
-amount_paid = 4.00
+# Calculate the maximum number of apples Walter can buy with his money
+max_by_money = Y // X
 
-due_amount = calculate_due_amount(amount_paid, total_bill)
-print(f"The shopkeeper should return ${due_amount:.2f} to Vishal.")
+# The answer is the minimum of what he can buy and the safe limit
+max_apples = min(max_by_money, C)
+
+print(max_apples)
