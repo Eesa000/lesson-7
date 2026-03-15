@@ -1,0 +1,13 @@
+import array as arr
+
+# create an array
+array_num = arr.array('i', [1, 3, 5, 3, 7, 9, 3])
+print("original array: "+str(array_num))
+
+# count number of occurrnces
+print("number of occurrences of the number 3 in the said array:"+str(array_num.count(3)))
+
+# reverse the array
+array_num.reverse()
+print("reverse the order of the items:")
+print(str(array_num))
