@@ -5,7 +5,7 @@ class myclass:
     __privatevar = 27
 
     # private method
-    def __privmeth(self):
+    def __privMeth(self):
         print("i'm inside class my class")
 
     # function to print value of private variable
@@ -15,4 +15,4 @@ class myclass:
 # object creation and method call
 foo = myclass()
 foo.hello()
-foo.__privmeth()
+foo.__privMeth
